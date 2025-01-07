@@ -1,5 +1,7 @@
 import React from 'react'
 
+// yksittäisen todo itemin renderöinti ja nappien toiminnot (muokkaus ja poisto)
+
 export default function TodoCard(props) {
     const { children, handleDeleteTodo, index, handleEditTodo } = props
     return (

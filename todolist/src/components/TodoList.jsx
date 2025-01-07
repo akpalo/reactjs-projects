@@ -1,6 +1,8 @@
 import React from 'react'
 import TodoCard from './TodoCard'
 
+// lista tehtävistä. hyödyntää TodoCard komponenttia
+
 export default function TodoList(props) {
     const { todos } = props
 

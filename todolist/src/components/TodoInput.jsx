@@ -1,5 +1,7 @@
 import { useState } from "react"
 
+// syötteen vastaanotto ja lisäysnappi uusien tehtävien lisäämiseen
+
 export default function TodoInput(props) {
     const {handleAddTodos, todoValue, setTodoValue} = props
 
